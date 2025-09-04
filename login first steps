@@ -1,0 +1,25 @@
+// See https://aka.ms/new-console-template for more information
+//Console.WriteLine("Hello, World!");
+using System;
+class Login
+{
+    //String age = Console.ReadLine();
+    static void Main(string[] args)
+    {
+        Console.WriteLine("--------SIGNUP PAGE--------");
+        Console.WriteLine("Hi user! please enter your name");
+        String name = Console.ReadLine();
+      
+        Console.WriteLine("please enter your age");
+        if(!int .TryParse(Console.ReadLine(),out int age))
+        {
+            Console.WriteLine("enter valid age");
+            return;
+        }
+        if(age<18)
+        {
+            Console.WriteLine("we're sorry!!you're restricted to use the app");
+        }
+            Console.WriteLine("youre eligble for sign up! stay with us it will just take few steps :)");
+    }
+}
