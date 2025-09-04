@@ -1,5 +1,5 @@
 using System;
-namespace Anvitha
+namespace anvitha
 {
 
     class Dotnet
@@ -12,6 +12,11 @@ namespace Anvitha
             //Console.Clear(); - to clear the console
             byte number = 205;
             number++; //dont use number=number+1;
+            byte num =204;
+num ++;
+console.ReadLine(num);
+
+
             byte number1 = 255;
             number1++; //overflow
             //checked
