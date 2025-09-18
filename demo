@@ -1,0 +1,60 @@
+using System;
+namespace anvitha
+{
+
+    class Dotnet
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("I'm learning dotnet");
+            Console.WriteLine("Hi im anvitha");
+            //Console.Beep();- to make beep sound ;)
+            //Console.Clear(); - to clear the console
+            byte number = 205;
+            number++; //dont use number=number+1;
+            byte num =204;
+num ++;
+console.ReadLine(num);
+
+
+            byte number1 = 255;
+            number1++; //overflow
+            //checked
+            //{
+                //byte number2 = 255;
+           //     number2++; //system.OverFlowException is thrown
+           // }
+            //byte number3;
+            //Console.WriteLine(number3);//variable cant be accessed without intializing/giving value thats the reason for redline
+
+            Console.WriteLine(number);
+
+            //correcting
+            byte number4=7;
+            Console.WriteLine(number4); //now itll print cz value is declared as =7
+            int num = 1;
+            Console.WriteLine(num);
+            float num1 = 10.95f;
+            Console.WriteLine(num1);
+            char letter = 'a';
+            Console.WriteLine(letter);
+            string name = "anvi";
+            Console.WriteLine(name);
+            byte number41 = 7;
+            Console.WriteLine(number41); //now itll print cz value is declared as =7
+            var num5 = 1; // using var keyword instead of datatype the compiler itself detects type u can see it by placing cursor on var
+            Console.WriteLine(num5);
+            var num6 = 10.95f;
+            Console.WriteLine(num6);
+            var letter1 = 'a';
+            Console.WriteLine(letter1);
+            var name1 = "anvi";
+            Console.WriteLine(name1);
+            Console.WriteLine("{0}{1}",byte.MinValue, byte.MaxValue); //prints min , max of byte datatype same with all datatypes
+            const float pi = 3.14f;
+            Console.WriteLine(pi);
+           //  pi = 1;//compiler error cz const value cant and shouldnt be changed
+        }
+    }
+}
+
